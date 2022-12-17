@@ -93,6 +93,17 @@ select:-webkit-autofill:focus {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+  padding-top: 76px;
+  padding-bottom: 120px;
+}
+
+/* SITE-HEADER */
+.site-header {
+  min-height: 156px;
+  background-color: var(--green);
+  background-image: url("../img/header-bg.svg");
+  background-size: auto 100%;
+  background-position: center center;
 }
 
 @media
